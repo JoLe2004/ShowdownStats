@@ -1,0 +1,175 @@
+.pokesprite { display: inline-block }
+.pokesprite.item { 
+    --dex: 0;
+    --cols: 16;
+
+    width: 24px; 
+    height: 24px; 
+    background: url('../assets/itemicons-sheet.png'); 
+    image-rendering: pixelated; 
+    image-rendering: -moz-crisp-edges;
+
+    background-position: 
+        calc(mod(var(--dex), var(--cols)) * -24px)
+        calc((var(--dex) - mod(var(--dex), var(--cols))) / var(--cols) * -24px);
+}
+
+.pokesprite.adamant-orb { --dex: 4}
+.pokesprite.griseous-orb { --dex: 180}
+.pokesprite.lustrous-orb { --dex: 265}
+.pokesprite.soul-dew { --dex: 459}
+.pokesprite.choice-band { --dex: 68}
+.pokesprite.choice-scarf { --dex: 69}
+.pokesprite.choice-specs { --dex: 70}
+.pokesprite.scope-lens { --dex: 429}
+.pokesprite.wide-lens { --dex: 537}
+.pokesprite.zoom-lens { --dex: 1342}
+.pokesprite.flame-orb { --dex: 145}
+.pokesprite.toxic-orb { --dex: 515}
+.pokesprite.life-orb { --dex: 249}
+.pokesprite.focus-band { --dex: 150}
+.pokesprite.focus-sash { --dex: 151}
+.pokesprite.silk-scarf { --dex: 444}
+.pokesprite.charcoal { --dex: 61}
+.pokesprite.miracle-seed { --dex: 292}
+.pokesprite.mystic-water { --dex: 300}
+.pokesprite.magnet { --dex: 273}
+.pokesprite.sharp-beak { --dex: 1204}
+.pokesprite.black-belt { --dex: 32}
+.pokesprite.hard-stone { --dex: 187}
+.pokesprite.poison-barb { --dex: 343}
+.pokesprite.silver-powder { --dex: 447}
+.pokesprite.soft-sand { --dex: 456}
+.pokesprite.metal-coat { --dex: 286}
+.pokesprite.black-glasses { --dex: 35}
+.pokesprite.twisted-spoon { --dex: 520}
+.pokesprite.spell-tag { --dex: 461}
+.pokesprite.never-melt-ice { --dex: 305}
+.pokesprite.dragon-fang { --dex: 106}
+.pokesprite.fairy-feather { --dex: 2290}
+.pokesprite.normal-gem { --dex: 307}
+.pokesprite.flame-plate { --dex: 146}
+.pokesprite.meadow-plate { --dex: 282}
+.pokesprite.sky-plate { --dex: 450}
+.pokesprite.splash-plate { --dex: 477}
+.pokesprite.stone-plate { --dex: 463}
+.pokesprite.zap-plate { --dex: 1340}
+.pokesprite.earth-plate { --dex: 117}
+.pokesprite.fist-plate { --dex: 143}
+.pokesprite.toxic-plate { --dex: 516}
+.pokesprite.iron-plate { --dex: 220}
+.pokesprite.icicle-plate { --dex: 215}
+.pokesprite.insect-plate { --dex: 218}
+.pokesprite.spooky-plate { --dex: 464}
+.pokesprite.mind-plate { --dex: 291}
+.pokesprite.draco-plate { --dex: 105}
+.pokesprite.dread-plate { --dex: 110}
+.pokesprite.pixie-plate { --dex: 1378}
+.pokesprite.power-anklet { --dex: 354}
+.pokesprite.power-band { --dex: 355}
+.pokesprite.power-belt { --dex: 356}
+.pokesprite.power-bracer { --dex: 357}
+.pokesprite.power-weight { --dex: 360}
+.pokesprite.eviolite { --dex: 130}
+.pokesprite.mental-herb { --dex: 285}
+.pokesprite.power-herb { --dex: 358}
+.pokesprite.white-herb { --dex: 535}
+.pokesprite.light-ball { --dex: 251}
+.pokesprite.light-clay { --dex: 252}
+.pokesprite.damp-rock { --dex: 88}
+.pokesprite.heat-rock { --dex: 193}
+.pokesprite.icy-rock { --dex: 221}
+.pokesprite.smooth-rock { --dex: 453}
+.pokesprite.air-balloon { --dex: 6}
+.pokesprite.absorb-bulb { --dex: 2}
+.pokesprite.big-nugget { --dex: 27}
+.pokesprite.big-root { --dex: 29}
+.pokesprite.binding-band { --dex: 31}
+.pokesprite.black-sludge { --dex: 34}
+.pokesprite.bright-powder { --dex: 51}
+.pokesprite.expert-belt { --dex: 132}
+.pokesprite.grip-claw { --dex: 179}
+.pokesprite.iron-ball { --dex: 224}
+.pokesprite.kings-rock { --dex: 236}
+.pokesprite.lagging-tail { --dex: 237}
+.pokesprite.leftovers { --dex: 242}
+.pokesprite.metronome { --dex: 289}
+.pokesprite.power-lens { --dex: 359}
+.pokesprite.reaper-cloth { --dex: 385}
+.pokesprite.red-card { --dex: 387}
+.pokesprite.shed-shell { --dex: 1205}
+.pokesprite.shell-bell { --dex: 1206}
+.pokesprite.assault-vest { --dex: 1349}
+.pokesprite.safety-goggles { --dex: 1372}
+.pokesprite.quick-claw { --dex: 373}
+.pokesprite.razor-claw { --dex: 382}
+.pokesprite.razor-fang { --dex: 383}
+.pokesprite.ring-target { --dex: 410}
+.pokesprite.rocky-helmet { --dex: 417}
+.pokesprite.wise-glasses { --dex: 539}
+.pokesprite.weakness-policy { --dex: 1377}
+.pokesprite.throat-spray { --dex: 2249}
+.pokesprite.eject-button { --dex: 118}
+.pokesprite.eject-pack { --dex: 2250}
+.pokesprite.heavy-duty-boots { --dex: 2251}
+.pokesprite.blunder-policy { --dex: 2252}
+.pokesprite.room-service { --dex: 2253}
+.pokesprite.utility-umbrella { --dex: 2254}
+.pokesprite.chipped-pot { --dex: 2256}
+.pokesprite.clear-amulet { --dex: 2283}
+.pokesprite.covert-cloak { --dex: 2286}
+.pokesprite.loaded-dice { --dex: 2287}
+.pokesprite.booster-energy { --dex: 2281}
+.pokesprite.ability-shield { --dex: 2282}
+.pokesprite.mirror-herb { --dex: 2284}
+.pokesprite.punching-glove { --dex: 2284}
+.pokesprite.adrenaline-orb { --dex: 2196}
+.pokesprite.terrain-extender { --dex: 2198}
+.pokesprite.electric-seed { --dex: 2200}
+.pokesprite.psychic-seed { --dex: 2201}
+.pokesprite.misty-seed { --dex: 2202}
+.pokesprite.grassy-seed { --dex: 2203}
+.pokesprite.aguav-berry { --dex: 5}
+.pokesprite.apicot-berry { --dex: 11}
+.pokesprite.aspear-berry { --dex: 14}
+.pokesprite.babiri-berry { --dex: 17}
+.pokesprite.belue-berry { --dex: 21}
+.pokesprite.bluk-berry { --dex: 44}
+.pokesprite.charti-berry { --dex: 62}
+.pokesprite.cheri-berry { --dex: 63}
+.pokesprite.chesto-berry { --dex: 65}
+.pokesprite.chilan-berry { --dex: 66}
+.pokesprite.chople-berry { --dex: 71}
+.pokesprite.colbur-berry { --dex: 78}
+.pokesprite.custap-berry { --dex: 86}
+.pokesprite.iapapa-berry { --dex: 217}
+.pokesprite.figy-berry { --dex: 140}
+.pokesprite.ganlon-berry { --dex: 158}
+.pokesprite.jaboca-berry { --dex: 230}
+.pokesprite.kasib-berry { --dex: 233}
+.pokesprite.kee-berry { --dex: 1361}
+.pokesprite.lansat-berry { --dex: 238}
+.pokesprite.leppa-berry { --dex: 244}
+.pokesprite.liechi-berry { --dex: 248}
+.pokesprite.lum-berry { --dex: 262}
+.pokesprite.mago-berry { --dex: 274 }
+.pokesprite.occa-berry { --dex: 311}
+.pokesprite.passho-berry { --dex: 329}
+.pokesprite.payapa-berry { --dex: 330}
+.pokesprite.pecha-berry { --dex: 333}
+.pokesprite.persim-berry { --dex: 334}
+.pokesprite.petaya-berry { --dex: 335}
+.pokesprite.pinap-berry { --dex: 337}
+.pokesprite.rindo-berry { --dex: 409}
+.pokesprite.salac-berry { --dex: 426}
+.pokesprite.sitrus-berry { --dex: 448}
+.pokesprite.shuca-berry { --dex: 443}
+.pokesprite.starf-berry { --dex: 472}
+.pokesprite.wacan-berry { --dex: 526}
+.pokesprite.wiki-berry { --dex: 538}
+.pokesprite.yache-berry { --dex: 1335}
+.pokesprite.maranga-berry { --dex: 1365}
+.pokesprite.roseli-berry { --dex: 1371}
+.pokesprite.cornerstone-mask { --dex: 2294}
+.pokesprite.wellspring-mask { --dex: 2295}
+.pokesprite.hearthflame-mask { --dex: 2296}

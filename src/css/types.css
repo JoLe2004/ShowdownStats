@@ -1,0 +1,127 @@
+.type.big {
+    transform: scale(1.5);
+}
+
+.type.shift {
+    transform: scale(1.5) translateX(5px);
+}
+
+.type {
+    display: inline-block;
+}
+
+.type.normal {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Normal.png');
+    image-rendering: pixelated; 
+    image-rendering: -moz-crisp-edges;
+}
+
+.type.fire {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Fire.png');
+}
+
+.type.water {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Water.png');
+}
+
+.type.grass {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Grass.png');
+}
+
+.type.flying {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Flying.png');
+}
+
+.type.fighting {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Fighting.png');
+}
+
+.type.poison {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Poison.png');
+}
+
+.type.rock {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Rock.png');
+}
+
+.type.ground {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Ground.png');
+}
+
+.type.electric {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Electric.png');
+}
+
+.type.bug {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Bug.png');
+}
+
+.type.dark {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Dark.png');
+}
+
+.type.ghost {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Ghost.png');
+}
+
+.type.ice {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Ice.png');
+}
+
+.type.psychic {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Psychic.png');
+}
+
+.type.steel {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Steel.png');
+}
+
+.type.dragon {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Dragon.png');
+}
+
+.type.fairy {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Fairy.png');
+}
+
+.type.stellar {
+    width: 32px;
+    height: 14px;
+    background: url('../assets/types/Stellar.png');
+}
